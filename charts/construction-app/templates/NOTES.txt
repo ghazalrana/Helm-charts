@@ -1,0 +1,2 @@
+You have successfully installed {{ title .Chart.Name }}.
+Your release version is {{ .Chart.Version }}.
