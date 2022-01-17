@@ -1,4 +1,4 @@
 #!/bin/bash
 
 
-helm install ubuntu ./charts/furious-wheels
+helm install furious-wheels ./charts/furious-wheels

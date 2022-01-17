@@ -1,4 +1,4 @@
 #!/bin/bash
 
 
-helm install ubuntu ./charts/construction-app
+helm install construction-app ./charts/construction-app

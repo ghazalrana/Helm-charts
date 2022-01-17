@@ -1,4 +1,4 @@
 #!/bin/bash
 
 
-helm install ubuntu ./charts/who-ami
+helm install whoami  ./charts/who-ami
