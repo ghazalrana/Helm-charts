@@ -19,6 +19,9 @@ spec:
 #           image: "{{ .Values.image.repository }}:{{ .Values.image.tag }}"
           image: "{{ .Values.image.repository }}"
           imagePullPolicy: {{ .Values.image.pullPolicy }}
+          command:
+            - "sleep"
+            - "604800"  
           ports:
             - name: http
               containerPort: {{ .Values.service.port }}
