@@ -1,4 +1,5 @@
 #!/bin/bash
 
 
-helm install ubuntu ./charts/ubuntu
+helm install ubuntu ./charts/ubuntu \
+	--set fullnameOverride="gaming-vr-ml"
